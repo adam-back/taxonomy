@@ -4,7 +4,7 @@ var Grub = function() {
   this.food = "jelly";
 };
 
-Grub.prototype.eat = function() {
-};
-
 Grub.prototype = Object.create();
+
+Grub.prototype.eat = function() {};
+
